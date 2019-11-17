@@ -134,19 +134,19 @@ struct test_header {
 #define Sgestrue            14  // S
 
 #define KEY_GESTURE_W          	246 //w
-#define KEY_GESTURE_M      		247 //m
-#define KEY_GESTURE_S			248 //s
+#define KEY_GESTURE_M           247 //m
+#define KEY_GESTURE_S	        248 //s
 #define KEY_DOUBLE_TAP          KEY_WAKEUP // double tap to wake
 #define KEY_GESTURE_CIRCLE      250 // draw circle
-#define KEY_GESTURE_TWO_SWIPE	251 // swipe two finger vertically
-#define KEY_GESTURE_DOWN_ARROW  252 // draw v
+#define KEY_GESTURE_TWO_SWIPE   251 // swipe two finger vertically
+#define KEY_GESTURE_UP_ARROW    252 // draw ^
 #define KEY_GESTURE_LEFT_V      253 // draw left arrow
 #define KEY_GESTURE_RIGHT_V     254 // draw right arrow
-#define KEY_GESTURE_UP_ARROW	255 // draw ^
+#define KEY_GESTURE_DOWN_ARROW  255 // draw v
 #define KEY_GESTURE_SWIPE_RIGHT	KEY_F5
-#define KEY_GESTURE_SWIPE_LEFT	KEY_F6
-#define KEY_GESTURE_SWIPE_DOWN	KEY_F7
-#define KEY_GESTURE_SWIPE_UP	KEY_F8
+#define KEY_GESTURE_SWIPE_LEFT  KEY_F6
+#define KEY_GESTURE_SWIPE_DOWN  KEY_F7
+#define KEY_GESTURE_SWIPE_UP    KEY_F8
 
 //ruanbanmao@BSP add for tp gesture 2015-05-06, begin
 #define BIT0 (0x1 << 0)
